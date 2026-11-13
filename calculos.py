@@ -129,5 +129,5 @@ def gerar_relatorio(premissas=None):
 
 if __name__ == "__main__":
     texto = gerar_relatorio()
-    (RAIZ / "docs" / "comparacao_alternativas.md").write_text(texto, encoding="utf-8")
+    (RAIZ / "comparacao_alternativas.md").write_text(texto, encoding="utf-8")
     print(texto)
