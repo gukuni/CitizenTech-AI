@@ -1,0 +1,20 @@
+# Justificativas das recomendações
+
+**Contexto:** moradores de comunidade em São Paulo (SP) com conta de luz pesada por causa do chuveiro elétrico.
+
+**Por que o chuveiro?** Ele funciona como resistência: transforma quase toda a energia elétrica em calor, com potência alta (milhares de watts). Por isso o consumo depende principalmente do *tempo* e da *temperatura* do banho. Trocar por outro chuveiro elétrico muda pouco; a economia real vem do uso ou de outra fonte de calor.
+
+**Alternativa A (hábitos e regulagem)**
+- Custo: nenhum. Viabilidade: alta, imediata.
+- Economia estimada: ~50% do consumo do chuveiro com banho de 5 min e potência média de 80%.
+- Limitação: depende de mudança de hábito.
+
+**Alternativa B (aquecedor solar de água, fonte renovável)**
+- Custo inicial alto (estimado, a substituir por orçamento), retorno em alguns anos.
+- Economia estimada: ~70% do consumo do chuveiro; o chuveiro permanece como apoio em dias nublados.
+- Viabilidade: exige telhado ou laje com sol, espaço e autorização de quem é dono do imóvel; pode ser difícil em casas alugadas ou muito sombreadas.
+- Impacto ambiental: reduz emissões, mas o ganho em CO₂ por casa é pequeno porque a rede brasileira é majoritariamente renovável.
+
+**Recomendação do assistente:** começar por A (sem custo); considerar B quando houver condições físicas e financeiras, inclusive de forma coletiva (compra em grupo, programas públicos).
+
+**Limites:** a análise usa estimativas (marcadas em `dados/premissas.csv`) e a tarifa é a premissa mais incerta; por isso há uma análise de sensibilidade em `docs/comparacao_alternativas.md`.

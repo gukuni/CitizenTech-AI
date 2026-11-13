@@ -1,0 +1,20 @@
+# Referências (consultadas em 13/11/2026)
+
+Dados usados nos cálculos (ver `dados/premissas.csv`):
+
+1. Exame. *Conta de luz em SP terá aumento a partir de 4 de julho com reajuste tarifário da Enel* (tarifa B1 residencial de R$ 725,18/MWh). https://exame.com/economia/conta-de-luz-sp-aumento-enel-reajuste-tarifa-aneel-julho
+2. Correio da Manhã / Gazeta SP / DGABC (Estadão Conteúdo). Reajuste médio de 10,18% da Enel SP, em vigor desde 4/7/2026. https://www.gazetasp.com.br/economia/aneel-aprova-reajuste-tarifa-conta-de-luz-enel-sao-paulo/
+3. Agência Brasil (via Tribuna do Norte, Grupo AMANHÃ e outros). *Aneel mantém bandeira tarifária verde em novembro* (30/10/2026). https://tribunadonorte.com.br/brasil/aneel-mantem-bandeira-tarifaria-verde-em-novembro/
+4. SBT News. Valores das bandeiras: vermelha 1 = R$ 4,463 por 100 kWh. https://sbtnews.sbt.com.br/noticia/economia/aneel-mantem-bandeira-verde-na-conta-de-luz-em-novembro
+5. Anais do CBENS (dados de irradiação solar global diária em São Paulo, ~3.996 Wh/m²). https://anaiscbens.emnuvens.com.br/cbens/article/download/1324/1318/1320
+
+Divergência encontrada: a Exame cita 13,94% de reajuste médio, enquanto as demais fontes citam 10,18%. A tarifa B1 da Exame foi mantida como valor de referência, tratada como premissa e testada na análise de sensibilidade (tarifa ±20%).
+
+A verificar antes da entrega (substituir estimativas marcadas no CSV):
+
+- ANEEL, tarifas homologadas da Enel SP: https://www.gov.br/aneel
+- CRESESB, SunData (irradiação por localidade): http://www.cresesb.cepel.br/sundata/
+- Atlas Brasileiro de Energia Solar, INPE (2ª ed., 2017).
+- MCTI, fator médio de emissão do SIN (kgCO2/kWh).
+- Procel/Inmetro, potência de chuveiros e selo de coletores solares.
+- Orçamento real de aquecedor solar de pequeno porte.
