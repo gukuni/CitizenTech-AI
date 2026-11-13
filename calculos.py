@@ -6,8 +6,8 @@ dado ou estimativa; nenhum resultado é garantido.
 import csv
 from pathlib import Path
 
-RAIZ = Path(__file__).resolve().parent.parent
-CAMINHO_PREMISSAS = RAIZ / "dados" / "premissas.csv"
+RAIZ = Path(__file__).resolve().parent
+CAMINHO_PREMISSAS = RAIZ / "premissas.csv"
 
 
 def carregar_premissas(caminho=CAMINHO_PREMISSAS):
